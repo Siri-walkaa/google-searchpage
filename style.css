@@ -8,9 +8,10 @@ body {
   padding-left: 13px;
   margin: 0;
   background: rgb(249, 249, 249);
-  border-bottom: 1px solid rgb(222, 222, 222);
+  border-bottom: 1px solid rgb(238, 238, 238);
   position:relative;
   min-width: 1000px;
+  height: 102px;
 }
 #google_logo {
   position:relative;
@@ -24,7 +25,7 @@ body {
 #search_input {
   position: absolute;
   height:42px;
-  width: 663px;
+  width: 632px;
   top: 0;
   border-left: 1px solid rgb(222, 222, 222);
   border-top: 1px solid rgb(222, 222, 222);
@@ -38,9 +39,9 @@ body {
 }
 #search {
   position:absolute;
-  left: 597px;
+  left: 593px;
   z-index: 1;
-  top: 10px;
+  top: 13px;
 }
 #mic {
   position:absolute;
@@ -62,4 +63,19 @@ body {
 #options {
   right: 126px;
   top: 34px;
+}
+#menubar li{
+  display: inline;
+  padding-left: 25px;
+  color: rgb(106, 106, 106);
+
+}
+
+#menubar li a {
+  text-transform: none;
+}
+#menubar {
+  position: relative;
+  left: 86px;
+  top: 6px;
 }
