@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  height: 100%;
+  height: 1000px;
 }
 #header {
   padding-top: 20px;
@@ -10,6 +10,7 @@ body {
   background: rgb(249, 249, 249);
   border-bottom: 1px solid rgb(222, 222, 222);
   position:relative;
+  min-width: 1000px;
 }
 #google_logo {
   position:relative;
@@ -19,13 +20,11 @@ body {
   position:absolute;
   left: 149px;
   top: 19px;
-  max-height: 42px;
-  background: #000;
 }
 #search_input {
   position: absolute;
   height:42px;
-  width: 633px;
+  width: 663px;
   top: 0;
   border-left: 1px solid rgb(222, 222, 222);
   border-top: 1px solid rgb(222, 222, 222);
@@ -39,13 +38,28 @@ body {
 }
 #search {
   position:absolute;
-  top: 25%;
   left: 597px;
   z-index: 1;
+  top: 10px;
 }
 #mic {
   position:absolute;
-  top: 24%;
   left:552px;
   z-index: 1;
+  top: 10px;
+}
+#options, #bell, #pic {
+  position: absolute;
+}
+#pic {
+  right: 24px;
+  top: 24px;
+}
+#bell {
+  right: 79px;
+  top: 30px;
+}
+#options {
+  right: 126px;
+  top: 34px;
 }
