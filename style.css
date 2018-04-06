@@ -43,6 +43,7 @@ body {
   z-index: 1;
   top: 13px;
 }
+
 #mic {
   position:absolute;
   left:552px;
@@ -57,25 +58,38 @@ body {
   top: 24px;
 }
 #bell {
-  right: 79px;
-  top: 30px;
+  right: 80px;
+  top: 33px;
 }
 #options {
-  right: 126px;
-  top: 34px;
+  right: 127px;
+  top: 35px;
 }
 #menubar li{
   display: inline;
   padding-left: 25px;
-  color: rgb(106, 106, 106);
-
 }
-
 #menubar li a {
-  text-transform: none;
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+}
+#menubar li a:visited {
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+}
+#menubar li a:hover {
+  color: black;
 }
 #menubar {
   position: relative;
   left: 86px;
   top: 6px;
+}
+#param {
+  position:absolute;
+  left:500px;
+}
+#outils {
+  position:absolute;
+  left:610px;
 }
