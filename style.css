@@ -63,3 +63,12 @@ body {
   right: 126px;
   top: 34px;
 }
+#menubar {
+  position:relative;
+  left: 120px;
+  top:
+}
+#menubar li{
+  display: inline;
+  padding-right: 10px;
+}
