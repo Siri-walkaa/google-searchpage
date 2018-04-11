@@ -2,6 +2,8 @@ body {
   padding: 0;
   margin: 0;
   height: 1000px;
+  font-family: arial, sans-serif;
+  font-size: small;
 }
 #header {
   padding-top: 20px;
@@ -65,10 +67,6 @@ body {
   right: 127px;
   top: 35px;
 }
-#menubar li{
-  display: inline;
-  padding-left: 25px;
-}
 #menubar li a {
   text-decoration: none;
   color: rgb(106, 106, 106);
@@ -81,24 +79,21 @@ body {
   color: black;
 }
 #menubar {
-  position: relative;
-  left: 86px;
-  top: 6px;
-}
-#param {
-  position:absolute;
-  left:500px;
-}
-#outils {
-  position:absolute;
-  left:610px;
-}
-#menubar {
   position:relative;
-  left: 120px;
-  top:
+  left: 109px;
+  top: 12px;
 }
 #menubar li{
   display: inline;
-  padding-right: 10px;
+  padding-right: 19px;
+  margin: 5px;
+}
+
+#param {
+  position:relative;
+  left:43px;
+}
+#outils {
+  position:relative;
+  left:43px;
 }
